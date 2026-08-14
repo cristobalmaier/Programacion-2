@@ -1,3 +1,6 @@
+//ULTIMO PUNTO DEL PRIMER EJERCICIO NO SE HACE
+
+
 #include <stdio.h>
 
 void cargar(int mat[3][3]){
@@ -14,7 +17,7 @@ void mostrar(int mat[3][3]){
     int i,j;
     for (i = 0; i < 3; i++){
         for (j = 0; j < 3; j++){
-            printf("%d\t", mat[i][j]);
+            printf("%d", mat[i][j]);
         }
         printf("\n");
     }
