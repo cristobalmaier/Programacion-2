@@ -50,7 +50,6 @@ int main()
         }
         else if (letra == ' ')
         {
-            // Mostrar 4 espacios entre palabras
             putchar(' ');
             putchar(' ');
             putchar(' ');
