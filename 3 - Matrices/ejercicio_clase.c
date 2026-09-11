@@ -1,24 +1,5 @@
 #include <stdio.h>
 
-int cargar (int vec[10]){
-    int i,num;
-    for (i = 0; i < 4; i++){
-        printf("Ingrese un numero: ");
-        scanf("%i", &vec[i]);
-    }
-    
-    printf("Ingrese otro numero: ");
-    scanf("%d", &num);
-    
-    while (num % 2 == 0 || num > vec[3]){
-        vec[i] = num;
-        i++;
-        printf("Ingrese otro numero: ");
-        scanf("%d", &num);
-    }
-    return i;
-}
-
 void mostrar(int vec[10]){
     int i;
     for (i = 0; i < tam; i ++){
@@ -56,7 +37,6 @@ int minimo (int vec[10], int tam){
     }
     return posmin;
 }
-
 int main()
 {
     int vec[10], tam, resultado,posmin;
